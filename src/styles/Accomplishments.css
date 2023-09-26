@@ -1,0 +1,25 @@
+/* Accomplishments.css */
+.accomplishment-image {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height as needed */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .accomplishment {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  
+  @keyframes backgroundAnimation {
+    from {
+      background-color: #1890ff;
+    }
+    to {
+      background-color: #898f97;
+    }
+    }
+
+    .custom-card .ant-card-head {
+        border-bottom: none;
+    }
+    

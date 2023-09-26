@@ -1,0 +1,18 @@
+.contact {
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  @keyframes backgroundAnimation {
+    from {
+      background-color: #1890ff;
+    }
+    to {
+      background-color: #898f97;
+    }
+    }
+
+    .custom-card .ant-card-head {
+        border-bottom: none;
+    }

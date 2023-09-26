@@ -1,0 +1,24 @@
+.layout {
+    background-color: brown;
+    position: "absolute";
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ant-layout {
+    background-color: #000; /* Set the background color to black */
+  }
+  
+  .ant-layout {
+    box-shadow: none;
+    border: none;
+  }
+  
+  /* Set margin to 0 to make sure there's no extra space around the layout */
+  .ant-layout {
+    margin: 0;
+  }

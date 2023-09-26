@@ -1,0 +1,25 @@
+.projects {
+    padding: 0px;
+    padding-bottom: 20px;
+    .custom-card{
+        padding-bottom: 10px;
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    from {
+      background-color: #1890ff;
+    }
+    to {
+      background-color: #898f97;
+    }
+    }
+
+
+    .custom-card{
+        padding-bottom: 10px;
+    }
+
+    .custom-row {
+        padding-bottom: 10px;
+    }
