@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.de54fba3.css",
-    "main.js": "/static/js/main.0c751237.js",
+    "main.css": "/static/css/main.d5444124.css",
+    "main.js": "/static/js/main.6e8a5584.js",
+    "static/media/react.png": "/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/pytorch.png": "/static/media/pytorch.e233fc48a48fde996610.png",
+    "static/media/c.png": "/static/media/c.24a8f93854ab092f17a7.png",
+    "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/git.png": "/static/media/git.63b94516b0c8926a967f.png",
+    "static/media/java-script.png": "/static/media/java-script.78206ba65e01c7d57080.png",
+    "static/media/scikit-learn.svg": "/static/media/scikit-learn.2fd1bf6a57f5159cecfc95ab27b81d75.svg",
+    "static/media/numpy.svg": "/static/media/numpy.a51625a3e1e6b12b6dd5ffd875e3326e.svg",
     "index.html": "/index.html",
-    "main.de54fba3.css.map": "/static/css/main.de54fba3.css.map",
-    "main.0c751237.js.map": "/static/js/main.0c751237.js.map"
+    "static/media/pandas.svg": "/static/media/pandas.ee2ae866ec6158a17e75af1faba05229.svg",
+    "main.d5444124.css.map": "/static/css/main.d5444124.css.map",
+    "main.6e8a5584.js.map": "/static/js/main.6e8a5584.js.map"
   },
   "entrypoints": [
-    "static/css/main.de54fba3.css",
-    "static/js/main.0c751237.js"
+    "static/css/main.d5444124.css",
+    "static/js/main.6e8a5584.js"
   ]
 }
