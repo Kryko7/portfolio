@@ -20,7 +20,7 @@ const Accomplishments = () => {
             <Card title="Accomplishments" style = {cardStyle} className='custom-card'>
                 <Carousel autoplay>
                     <div>
-                        <Card title="Data Storm 4.0 - Winners" >
+                        <Card title="Data Storm 4.0 - Winners" className='small-card' >
                             <Carousel autoplay>
                                 <img src="datastom-1.jpeg" alt="Accomplishment 1" className="accomplishment-image" />
                                 <img src="datastom-2.jpeg" alt="Accomplishment 2" className="accomplishment-image" />

@@ -1,0 +1,65 @@
+.banner {
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    height: 83vh;
+    animation: slideIn 1s;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 35px;
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    from {
+        background-color: #1890ff;
+    }
+    to {
+        background-color: #898f97;
+    }
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 75px;
+    color: #000;
+    margin: 0;
+}
+
+.waving-hand {
+    font-size: 48px;
+    animation: wave 2s infinite;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-20deg); }
+    100% { transform: rotate(0deg); }
+}

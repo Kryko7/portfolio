@@ -1,18 +1,60 @@
 .about {
-    padding: 0px;
-    padding-bottom: 20px;
-    border: none;
-  }
-  
-  @keyframes backgroundAnimation {
-    from {
-      background-color: #1890ff;
-    }
-    to {
-      background-color: #898f97;
-    }
-    }
+  padding: 0;
+  padding-bottom: 20px;
+  border: none;
+}
 
-    .custom-card .ant-card-head {
-        border-bottom: none;
-    }
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tech-stack li {
+  margin: 10px;
+  font-size: 24px;
+  color: #1890ff;
+  display: flex;
+  align-items: center;
+}
+
+.tech-stack i {
+  margin-right: 10px;
+}
+.tech-stack-icons img {
+  max-width: 80px; /* Set the maximum width for the icons */
+  max-height: 80px; /* Set the maximum height for the icons */
+  margin: 5px; /* Add some margin between the icons */
+}
+.tech-stack-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-stack-icons li {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-card-1{
+
+  margin-bottom: 30px;
+  font-size: large;
+}
+
+.custom-card-1 .ant-card-head {
+  border-bottom: none;
+  font-size: large;
+  margin-bottom: 0px;
+}
+.custom-card .ant-card-head {
+  border-bottom: none;
+  font-size: large;
+  margin-bottom: 0px;
+}
+

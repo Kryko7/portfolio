@@ -18,8 +18,11 @@
       background-color: #898f97;
     }
     }
-
+    .small-card{
+      font-size: large;
+    }
     .custom-card .ant-card-head {
         border-bottom: none;
+        font-size: large;
     }
     

@@ -35,7 +35,7 @@ const Projects = () => {
           "The backend of the Ecommerce website is developed using Node.js and Express, providing a robust and scalable server environment.",
           "The database is designed using MySQL, ensuring efficient data storage and retrieval for the application."
         ],
-        githubLink: "https://github.com/Kryko7/backtend"
+        githubLink: "https://github.com/Kryko7/backend"
     },
     {
         title: "Chat App",
@@ -51,7 +51,7 @@ const Projects = () => {
           "Developed a command-line interface (CLI) email client in Java, emphasizing object-oriented programming (OOP) principles and utilizing design patterns for efficient code structure.",
           "The client allows users to manage emails through the command line, providing a seamless and intuitive experience. It demonstrates a strong grasp of OOP concepts and design patterns in Java development."
         ],
-        githubLink: "https://github.com/yourusername/cli-email-client"
+        githubLink: "https://github.com/Kryko7/email-client"
     },
     {
         title: "Portfolio Website",
@@ -59,7 +59,7 @@ const Projects = () => {
           "Designed and developed a portfolio website to showcase my projects and skills. The website is built using React and leverages the Ant Design library for a sleek and modern UI.",
           "Deployed the portfolio using GitHub Pages for easy accessibility. The website provides a user-friendly interface for navigating through my projects and learning more about my capabilities."
         ],
-        githubLink: "https://github.com/Kryko7/portfolio"
+        githubLink: "https://github.com/minindurupasinghe/minindurupasinghe.github.io"
     },
     {
         title: "Nano Processor Design",
@@ -107,7 +107,7 @@ const Projects = () => {
                 title={<PlusOutlined style={{ fontSize: '48px' }} />}
                 bordered={false}
                 onClick={handleMainCardClick}
-                style={{ cursor: 'pointer', textAlign: 'center' }}
+                style={{ cursor: 'pointer', textAlign: 'center', fontSize: 'large' }}
             >
             <p>Click to view all projects</p>
           </Card>

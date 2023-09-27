@@ -5,6 +5,7 @@ import About from './components/About';
 import Accomplishments from './components/Accomplishments';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Banner from './components/Banner';
 import './styles/header.css';
 import './styles/layout.css';
 import './styles/global.css';
@@ -44,6 +45,7 @@ const App = () => {
         <Breadcrumb style={{ margin: '16px 0' }}>
         </Breadcrumb>
         <div className="site-layout-content">
+          <Banner />
           <About />
           <Projects />
           <Accomplishments />
