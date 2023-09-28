@@ -71,49 +71,116 @@ const Projects = () => {
     // Add more projects as needed
   ];
 
-  const cardStyle = {
-    background: '#1890ff', // Set your desired background color here
-    animation: 'backgroundAnimation 10s infinite alternate',
-    border: 'none',    
-    };
-  const cardStyleHovered = {
-    border: 'none', 
-    cursor: 'pointer',   
-    };
+  // const cardStyle = {
+  //   background: '#1890ff', // Set your desired background color here
+  //   animation: 'backgroundAnimation 10s infinite alternate',
+  //   border: 'none',    
+  //   };
+  // const cardStyleHovered = {
+  //   border: 'none', 
+  //   cursor: 'pointer',   
+  //   };
   
 
+  // return (
+  //   <div id="projects" className="projects">
+  //   <Card title="Projects" bordered={false} style={cardStyle} className='custom-card'>
+  //     <Row gutter={16} className='custom-row'>
+  //       {projects.map((project, index) => (
+  //         <Col span={12} key={index}>
+  //           <Card
+  //             title={project.title}
+  //             bordered={false}
+  //             onMouseEnter={() => setHoveredCard(index)}
+  //             onMouseLeave={() => setHoveredCard(null)}
+  //             onClick={() => handleCardClick(project.githubLink)}
+  //             style= {cardStyleHovered}
+  //             border = {false}
+  //             className='custom-card'
+  //           >
+  //             <p>{project.description}</p>
+  //           </Card>
+  //         </Col>
+  //       ))}
+  //       <Col span={12}>
+  //           <Card
+  //               title={<PlusOutlined style={{ fontSize: '48px' }} />}
+  //               bordered={false}
+  //               onClick={handleMainCardClick}
+  //               style={{ cursor: 'pointer', textAlign: 'center', fontSize: 'large' }}
+  //           >
+  //           <p>Click to view all projects</p>
+  //         </Card>
+  //       </Col>
+  //     </Row>
+  //   </Card>
+  //   </div>
+  // );
+
+  const cardStyleHovered = {
+
+    cursor: 'pointer',
+    // backgroundColor: '#f0f0f0',
+    borderRadius: '10px',
+    // padding: '10px',
+    // margin: '10px',
+    // overflowX: 'hidden',
+    // overflow: 'auto',
+    // textOverflow: 'ellipsis',
+    // whiteSpace: 'nowrap',
+    // height: 'auto',
+  };
+
+  const cardStyle = {
+    
+    cursor: 'pointer',
+    // backgroundColor: '#f0f0f0',
+    borderRadius: '10px',
+    // padding: '10px',
+    // margin: '10px',
+    // height: '200px',
+    // overflow: 'hidden',
+    // textOverflow: 'ellipsis',
+    // whiteSpace: 'nowrap',
+  };
+
+  const outerCardStyle = {
+    background: '#1890ff', // Set your desired background color here
+    animation: 'backgroundAnimation 10s infinite alternate',
+    marginBottom: '20px',
+  };
+
   return (
-    <div id="projects" className="projects">
-    <Card title="Projects" bordered={false} style={cardStyle} className='custom-card'>
-      <Row gutter={16} className='custom-row'>
-        {projects.map((project, index) => (
-          <Col span={12} key={index}>
+    <div id="projects" style={{ maxWidth: '100%', overflowX: 'hidden' }}>
+      <Card bordered={false} style={{ width: '100%', ...outerCardStyle}}>
+        <Row gutter={16}>
+          {projects.map((project, index) => (
+            <Col xs={24} sm={12} md={8} lg={12} key={index}>
+              <Card
+                title={project.title}
+                onMouseEnter={() => setHoveredCard(index)}
+                onMouseLeave={() => setHoveredCard(null)}
+                onClick={() => handleCardClick(project.githubLink)}
+                style={cardStyleHovered}
+                border={false}
+                className='custom-card'
+              >
+                <p>{project.description}</p>
+              </Card>
+            </Col>
+          ))}
+          <Col xs={24} sm={12} md={8} lg={12}>
             <Card
-              title={project.title}
+              title={<PlusOutlined style={{ fontSize: '48px' }} />}
               bordered={false}
-              onMouseEnter={() => setHoveredCard(index)}
-              onMouseLeave={() => setHoveredCard(null)}
-              onClick={() => handleCardClick(project.githubLink)}
-              style= {cardStyleHovered}
-              border = {false}
-              className='custom-card'
+              onClick={handleMainCardClick}
+              style={{ cursor: 'pointer', textAlign: 'center', fontSize: 'large' }}
             >
-              <p>{project.description}</p>
+              <p>Click to view all projects</p>
             </Card>
           </Col>
-        ))}
-        <Col span={12}>
-            <Card
-                title={<PlusOutlined style={{ fontSize: '48px' }} />}
-                bordered={false}
-                onClick={handleMainCardClick}
-                style={{ cursor: 'pointer', textAlign: 'center', fontSize: 'large' }}
-            >
-            <p>Click to view all projects</p>
-          </Card>
-        </Col>
-      </Row>
-    </Card>
+        </Row>
+      </Card>
     </div>
   );
 };

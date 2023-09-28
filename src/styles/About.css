@@ -34,11 +34,14 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .tech-stack-icons li {
   margin: 0;
   padding: 0;
+  /* flex-basis: calc(33.33% - 10px);
+  max-width: calc(33.33% - 10px); */
 }
 
 .custom-card-1{
@@ -58,3 +61,24 @@
   margin-bottom: 0px;
 }
 
+@media screen and (max-width: 768px) {
+  .tech-stack li {
+    font-size: 18px;
+    margin: 5px;
+    flex-basis: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+  }
+
+  .tech-stack-icons img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 2px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .custom-card-1 {
+    font-size: medium;
+  }
+}

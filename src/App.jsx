@@ -16,7 +16,9 @@ const { Header, Content, Footer } = Layout;
 const App = () => {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
-    element.scrollIntoView({ behavior: 'smooth' });
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -41,7 +43,7 @@ const App = () => {
         </Menu>
         {/* Render the Contact component */}
       </Header>
-      <Content style={{ padding: '0 50px' }}>
+      <Content style={{ padding: '50px 50px 0'}}>
         <Breadcrumb style={{ margin: '16px 0' }}>
         </Breadcrumb>
         <div className="site-layout-content">

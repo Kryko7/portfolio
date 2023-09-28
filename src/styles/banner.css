@@ -14,6 +14,30 @@
     animation: backgroundAnimation 10s infinite alternate;
 }
 
+@media screen and (max-width: 768px) {
+    .banner {
+      height: auto;
+      flex-direction: column;
+      width: 100%;
+      height: inherit;
+      padding: 200px 200px;
+    }
+  
+    .banner-content {
+      position: relative;
+      transform: none;
+
+    }
+  
+    .banner-text {
+      font-size: 36px !important;
+    }
+  
+    /* .waving-hand {
+      font-size: 24px;
+    } */
+    
+  }
 @keyframes backgroundAnimation {
     from {
         background-color: #1890ff;
@@ -34,7 +58,7 @@
 }
 
 .banner-text {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif !important;
     font-size: 75px;
     color: #000;
     margin: 0;

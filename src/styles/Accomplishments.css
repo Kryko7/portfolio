@@ -26,3 +26,23 @@
         font-size: large;
     }
     
+
+    @media screen and (max-width: 768px) {
+      .accomplishment-image {
+        max-height: 200px;
+      }
+    
+      .accomplishment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .small-card {
+        font-size: medium;
+      }
+    
+      .custom-card .ant-card-head {
+        font-size: medium;
+      }
+    }
