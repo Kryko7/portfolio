@@ -9,6 +9,9 @@ import Banner from './components/Banner';
 import './styles/header.css';
 import './styles/layout.css';
 import './styles/global.css';
+
+import mylogo from './images/Minidu-logos-1.jpeg'
+import code from './images/code.png'
  // Replace with the actual path to your logo
 
 const { Header, Content, Footer } = Layout;
@@ -25,7 +28,7 @@ const App = () => {
     <Layout className="layout">
       <Header className="header">
         <div className="logo">
-          <img src='Minidu-logos-1.jpeg' alt="Logo" style={{ height: '120px', width: '100px', paddingTop: '30px' }} />
+          <img src={code} alt="Logo" style={{ height: '120px', width: '100px', paddingTop: '10px' }} />
         </div>
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']} className='custom-menu'>
           <Menu.Item key="1" onClick={() => scrollToSection('about')}>

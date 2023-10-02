@@ -16,16 +16,17 @@
 
 @media screen and (max-width: 768px) {
     .banner {
-      height: auto;
+      /* height: 100px; */
       flex-direction: column;
-      width: 100%;
+      /* width: 100%; */
       height: inherit;
-      padding: 200px 200px;
+      padding: 150px 150px;
     }
   
     .banner-content {
-      position: relative;
-      transform: none;
+      /* position: relative; */
+      flex-direction: column;
+      /* transform: none; */
 
     }
   
