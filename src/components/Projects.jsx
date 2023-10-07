@@ -107,7 +107,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" style={{ maxWidth: '100%', overflowX: 'hidden' }}>
+    <div id="projects"  style={{ maxWidth: '100%', overflowX: 'hidden' }}>
       <Card bordered={false} style={{ width: '100%', ...outerCardStyle}}>
         <Row gutter={16}>
           {projects.map((project, index) => (
@@ -131,6 +131,8 @@ const Projects = () => {
               bordered={false}
               onClick={handleMainCardClick}
               style={{ cursor: 'pointer', textAlign: 'center', fontSize: 'large' }}
+              border={false}
+              className='custom-card'
             >
               <p>Click to view all projects</p>
             </Card>

@@ -12,6 +12,12 @@
     position: relative;
     margin-bottom: 35px;
     animation: backgroundAnimation 10s infinite alternate;
+    font-family: 'Indie Flower' !important;
+
+    .banner-content {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -39,14 +45,14 @@
     } */
     
   }
-@keyframes backgroundAnimation {
+/* @keyframes backgroundAnimation {
     from {
         background-color: #1890ff;
     }
     to {
         background-color: #898f97;
     }
-}
+} */
 
 .banner-content {
     display: flex;
@@ -59,8 +65,8 @@
 }
 
 .banner-text {
-    font-family: 'Noto Sans JP', sans-serif !important;
-    font-size: 75px;
+    font-family: 'Indie Flower', cursive !important;
+    font-size: 100px;
     color: #000;
     margin: 0;
 }
