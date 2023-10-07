@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.89a4a9db.css",
-    "main.js": "/static/js/main.bdd23639.js",
+    "main.css": "/static/css/main.40177dd7.css",
+    "main.js": "/static/js/main.15ca0f1e.js",
     "static/media/datastom-3.jpeg": "/static/media/datastom-3.eaf8ce4de5682ec12907.jpeg",
     "static/media/datastom-2.jpeg": "/static/media/datastom-2.94b5d43f803f9cd86eb1.jpeg",
-    "static/media/Minidu-logos-1.jpeg": "/static/media/Minidu-logos-1.5fbad330a53148db841e.jpeg",
     "static/media/datastom-4.jpeg": "/static/media/datastom-4.130f3ee0e6a8fc3af58b.jpeg",
     "static/media/datastom-1.jpeg": "/static/media/datastom-1.07c96708bffc34ccccb0.jpeg",
     "static/media/react.png": "/static/media/react.809fed23bcdd686de66e.png",
@@ -19,11 +18,11 @@
     "static/media/numpy.svg": "/static/media/numpy.a51625a3e1e6b12b6dd5ffd875e3326e.svg",
     "index.html": "/index.html",
     "static/media/pandas.svg": "/static/media/pandas.ee2ae866ec6158a17e75af1faba05229.svg",
-    "main.89a4a9db.css.map": "/static/css/main.89a4a9db.css.map",
-    "main.bdd23639.js.map": "/static/js/main.bdd23639.js.map"
+    "main.40177dd7.css.map": "/static/css/main.40177dd7.css.map",
+    "main.15ca0f1e.js.map": "/static/js/main.15ca0f1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a4a9db.css",
-    "static/js/main.bdd23639.js"
+    "static/css/main.40177dd7.css",
+    "static/js/main.15ca0f1e.js"
   ]
 }
